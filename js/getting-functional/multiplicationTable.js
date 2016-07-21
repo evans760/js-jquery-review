@@ -15,3 +15,17 @@
 // 10  20  30  40  50  60  70  80  90 100 110 120
 // 11  22  33  44  55  66  77  88  99 110 121 132
 // 12  24  36  48  60  72  84  96 108 120 132 144
+
+
+
+var num = prompt("Enter Number", "0") //prompt user to enter the number
+
+var num = parseInt(num); //parse the num to number
+var i = 0;
+
+document.write('<table border="1" cellspacing="0">');
+for(i=1;i<10;i++) {
+    document.write("<tr><td>" + num + " x " + i + " = " + num*i + "</td></tr>");
+}
+
+document.write("</table>");
